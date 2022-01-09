@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(151, 149, 149);
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +15,35 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.err{
+  color: red;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-indent: 5px;
+  text-shadow: 1px 1px 2px rgb(251, 255, 0), 0 0 1em rgb(250, 226, 6), 0 0 0.2em rgb(255, 0, 234);
+}
+
+
+.formList {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px
+}
+
+.formList li {
+  margin: 10px 0 10px 0;
+}
+.formList li span{
+  display:inline-block;
+  width: 100px;
+  font-weight: 600;
 }
 
 .App-header {
